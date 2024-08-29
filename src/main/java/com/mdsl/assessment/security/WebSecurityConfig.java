@@ -21,7 +21,7 @@ import org.springframework.security.web.authentication.UsernamePasswordAuthentic
 @EnableWebSecurity
 @RequiredArgsConstructor
 @EnableGlobalMethodSecurity(securedEnabled = true)
- class WebSecurityConfig extends WebSecurityConfigurerAdapter
+class WebSecurityConfig extends WebSecurityConfigurerAdapter
 {
     private final UserDetailsServiceImpl userDetailsServiceImpl;
 
@@ -52,8 +52,6 @@ import org.springframework.security.web.authentication.UsernamePasswordAuthentic
     {
         return new BCryptPasswordEncoder();
     }
-
-
 
 
     @Override

@@ -64,7 +64,7 @@ public class InstitutionServiceImpl implements InstitutionService
                 }
             }
             InstitutionEntity institutionEntity = new InstitutionEntity(createUpdateInstituteDto);
-            return  new Response(institutionRepository.save(institutionEntity));
+            return new Response(institutionRepository.save(institutionEntity));
         }
         catch (Exception e)
         {

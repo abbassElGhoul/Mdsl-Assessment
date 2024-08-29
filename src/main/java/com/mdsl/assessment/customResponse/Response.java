@@ -1,4 +1,5 @@
 package com.mdsl.assessment.customResponse;
+
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;

@@ -73,6 +73,7 @@ public class InstitutionController
             return new Response(HttpStatus.INTERNAL_SERVER_ERROR, e.getMessage());
         }
     }
+
     @DeleteMapping("delete-by-id")
     public Response deleteInstituteById(@RequestParam Integer id)
     {

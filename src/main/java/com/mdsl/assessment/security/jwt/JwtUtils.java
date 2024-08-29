@@ -1,10 +1,8 @@
 package com.mdsl.assessment.security.jwt;
 
-import com.mdsl.assessment.security.services.UserDetailsImpl;
-import lombok.extern.log4j.Log4j2;
 import io.jsonwebtoken.*;
+import lombok.extern.log4j.Log4j2;
 import org.springframework.beans.factory.annotation.Value;
-import org.springframework.security.core.Authentication;
 import org.springframework.stereotype.Component;
 import org.springframework.util.StringUtils;
 

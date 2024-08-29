@@ -1,6 +1,5 @@
 package com.mdsl.assessment.user;
 
-import com.mdsl.assessment.user.Dto.SignUpDto;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
