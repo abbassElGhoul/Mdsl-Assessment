@@ -1,0 +1,10 @@
+INSERT INTO INSTITUTION (code, name, status) VALUES (10001, 'Harvard University', 1);
+INSERT INTO INSTITUTION (code, name, status) VALUES (10002, 'Massachusetts Institute of Technology', 1);
+INSERT INTO INSTITUTION (code, name, status) VALUES (10003, 'Stanford University', 1);
+INSERT INTO INSTITUTION (code, name, status) VALUES (10004, 'University of Oxford', 0);
+INSERT INTO INSTITUTION (code, name, status) VALUES (10005, 'California Institute of Technology', 1);
+INSERT INTO INSTITUTION (code, name, status) VALUES (10006, 'Princeton University', 0);
+INSERT INTO INSTITUTION (code, name, status) VALUES (10007, 'Yale University', 1);
+INSERT INTO INSTITUTION (code, name, status) VALUES (10008, 'Columbia University', 1);
+INSERT INTO INSTITUTION (code, name, status) VALUES (10009, 'University of Cambridge', 1);
+INSERT INTO INSTITUTION (code, name, status) VALUES (10010, 'University of Chicago', 0);

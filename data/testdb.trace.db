@@ -1,0 +1,21 @@
+2024-08-29 16:53:21 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "USERS" not found (this database is empty); SQL statement:
+select userentity0_.id as id1_1_, userentity0_.password as password2_1_, userentity0_.user_name as user_nam3_1_ from users userentity0_ where userentity0_.user_name=? [42104-214]
+2024-08-29 16:53:27 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "USERS" not found (this database is empty); SQL statement:
+select userentity0_.id as id1_1_, userentity0_.password as password2_1_, userentity0_.user_name as user_nam3_1_ from users userentity0_ where userentity0_.user_name=? [42104-214]
+2024-08-29 16:53:57 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "USERS" not found (this database is empty); SQL statement:
+select userentity0_.id as id1_1_, userentity0_.password as password2_1_, userentity0_.user_name as user_nam3_1_ from users userentity0_ where userentity0_.user_name=? [42104-214]
+2024-08-29 16:54:49 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "select userentity0_.id as id1_1_, userentity0_.password as password2_1_, userentity0_.user_name as user_nam3_1_ from [*]user userentity0_ where userentity0_.user_name=?"; expected "identifier"; SQL statement:
+select userentity0_.id as id1_1_, userentity0_.password as password2_1_, userentity0_.user_name as user_nam3_1_ from user userentity0_ where userentity0_.user_name=? [42001-214]
+2024-08-29 16:55:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "select userentity0_.id as id1_1_, userentity0_.password as password2_1_, userentity0_.user_name as user_nam3_1_ from [*]user userentity0_ where userentity0_.user_name=?"; expected "identifier"; SQL statement:
+select userentity0_.id as id1_1_, userentity0_.password as password2_1_, userentity0_.user_name as user_nam3_1_ from user userentity0_ where userentity0_.user_name=? [42001-214]
+2024-08-29 16:55:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "INSTITUTION" not found (this database is empty); SQL statement:
+select institutio0_.id as id1_0_, institutio0_.code as code2_0_, institutio0_.name as name3_0_, institutio0_.status as status4_0_ from institution institutio0_ [42104-214]
+2024-08-29 17:01:16 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "select userentity0_.id as id1_1_, userentity0_.password as password2_1_, userentity0_.user_name as user_nam3_1_ from [*]user userentity0_ where userentity0_.user_name=?"; expected "identifier"; SQL statement:
+select userentity0_.id as id1_1_, userentity0_.password as password2_1_, userentity0_.user_name as user_nam3_1_ from user userentity0_ where userentity0_.user_name=? [42001-214]
